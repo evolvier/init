@@ -1,0 +1,30 @@
+{
+  "name": "evolvier",
+  "version": "1.0.0",
+  "description": "evolvier company cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "react-native-evr": "./react-native.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evolvier/init.git"
+  },
+  "keywords": [
+    "evolvier"
+  ],
+  "author": "evolvier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evolvier/init/issues"
+  },
+  "homepage": "https://github.com/evolvier/init#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "shelljs": "^0.8.3",
+    "simple-git": "^1.122.0"
+  }
+}
