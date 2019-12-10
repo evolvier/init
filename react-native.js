@@ -5,7 +5,7 @@ const [,, ...args] = process.argv
 var shell = require("shelljs");
 var _ = require('lodash');
 
-if(args.length > 2 && args[0] === "init") {
+if(args.length > 1 && args[0] === "init") {
 	let projectName = null;
 	let packageName = null;
 	let isPackageName = false;
